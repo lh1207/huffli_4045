@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 import com.plantplaces.dto.SpecimenDTO;
 
 @Component
-public class SpecimenServiceStub implements ISpecimenService {
+public class ISpecimenServiceStub implements ISpecimenService {
 	
 	@Override
 	public SpecimenDTO fetchById(int id) {

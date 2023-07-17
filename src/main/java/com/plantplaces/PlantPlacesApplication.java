@@ -1,4 +1,4 @@
-package com.huffli.individualassignment;
+package com.plantplaces;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,7 +8,7 @@ public class PlantPlacesApplication {
 
 	public static void main(String[] args) {
 		System.setProperty("server.port", "8080");
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(PlantPlacesApplication.class, args);
 	}
 
 }
